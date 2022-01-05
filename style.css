@@ -1,0 +1,29 @@
+h1{
+    font-size: 25px !important;
+    font-family:Impact;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    color: maroon;
+    text-decoration: darkgreen;
+    text-decoration-style: double;
+}
+ .btn-success:hover{
+     background-color: rgb(255, 0, 0);
+     border: none;
+     font-family: Georgia;
+ }
+ canvas{
+     animation-name: example;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+     border-width: 10px ;
+     border-style: ridge;
+     color: darkslategrey;
+ }
+ @keyframes example{
+     from{ box-shadow: -10px 10px 40px rgb(255, 0, 0);}
+     to{ box-shadow: -10px 10px 40px rgb(255, 251, 2);}
+ }
+ body{
+     background-image: url(bg.jpg);
+ }
